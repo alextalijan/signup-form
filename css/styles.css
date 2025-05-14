@@ -5,3 +5,23 @@
     font-weight: normal;
     font-style: normal;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left-pagepart {
+    background-image: url(../img/forest-background.jpg);
+    background-size: 85vh;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-width: clamp(300px, 40%, 700px);
+}
