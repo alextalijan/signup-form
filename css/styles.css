@@ -20,8 +20,29 @@
 
 .left-pagepart {
     background-image: url(../img/forest-background.jpg);
-    background-size: 85vh;
+    background-size: auto 130vh;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     min-width: clamp(300px, 40%, 700px);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.right-pagepart {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #F5F5F5;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.right-pagepart > form {
+    background-color: white;
 }
