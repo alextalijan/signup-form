@@ -122,6 +122,11 @@ form {
     font-weight: 700;
 }
 
+.create-account > button:hover {
+    cursor: pointer;
+    background-color: #4f623f;
+}
+
 .create-account > p {
     font-size: 1rem;
 }
@@ -155,10 +160,6 @@ form {
     font-weight: 500;
 }
 
-.form-row label > span {
-    font-size: 0.9rem;
-}
-
 .form-row {
     gap: 5vw;
 }
@@ -179,3 +180,7 @@ form {
     border: 1px solid #BF0000;
 }
 
+.form-row input[type="tel"] {
+    border-style: dashed;
+    border-width: 2px;
+}
