@@ -148,6 +148,10 @@ form,
     flex-direction: column;
 }
 
+.form-row > div {
+    gap: 1px;
+}
+
 form {
     gap: 1rem;
     padding-top: 1.5rem;
@@ -157,7 +161,8 @@ form {
 .form-row label {
     font-size: 0.7rem;
     letter-spacing: 0.05rem;
-    font-weight: 500;
+    font-weight: 600;
+    color: rgb(78, 78, 78);
 }
 
 .form-row {
