@@ -157,6 +157,8 @@ form {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     box-shadow: 0 2px 5px -2px gray;
+    margin: 0 2.5rem;
+    border-radius: 1.5rem;
 }
 
 .form-row label {
