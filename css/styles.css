@@ -177,6 +177,10 @@ form {
     border-radius: 0.2rem;
 }
 
+.form-row input::placeholder {
+    opacity: 0.5;
+}
+
 .form-row input:focus {
     box-shadow: 0 2px 3px gray;
     outline: 1px solid blue;
