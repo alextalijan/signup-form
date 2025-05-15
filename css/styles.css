@@ -46,3 +46,19 @@
 .right-pagepart > form {
     background-color: white;
 }
+
+.logo {
+    background-color: #01010180;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 12rem;
+    padding: 1rem 0;
+}
+
+.logo > span {
+    font-family: norsebold;
+    color: white;
+    font-size: 6rem;
+}
