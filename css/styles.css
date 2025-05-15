@@ -155,6 +155,10 @@ form {
     font-weight: 500;
 }
 
+.form-row label > span {
+    font-size: 0.9rem;
+}
+
 .form-row {
     gap: 5vw;
 }
@@ -162,6 +166,16 @@ form {
 .form-row input {
     padding: 0.3rem;
     width: clamp(150px, 20vw, 270px);
-    border: 1px solid lightgray;
+    border: 1px solid #E5E7EB;
     border-radius: 0.2rem;
 }
+
+.form-row input:focus {
+    box-shadow: 0 2px 3px gray;
+    outline: 1px solid blue;
+}
+
+.form-row input[type="password"]:invalid {
+    border: 1px solid #BF0000;
+}
+
