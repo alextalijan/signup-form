@@ -59,7 +59,9 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    margin-top: 12rem;
+    position: absolute;
+    width: 100%;
+    top: 25%;
     padding: 1rem 0;
 }
 
@@ -84,4 +86,14 @@ body {
     bottom: 2%;
     width: 100%;
     text-align: center;
+}
+
+.intro-text p:nth-child(2) {
+    margin-top: 1rem;
+}
+
+.intro-text {
+    padding-left: 2rem;
+    min-width: 45ch;
+    max-width: 70ch;
 }
