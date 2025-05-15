@@ -93,7 +93,36 @@ body {
 }
 
 .intro-text {
-    padding-left: 2rem;
+    padding: 0 3rem;
     min-width: 45ch;
     max-width: 70ch;
+}
+
+.create-account {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+.create-account > button {
+    background-color: #596D48;
+    color: white;
+    font-size: 1rem;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 0 2px 3px gray;
+    margin-bottom: 1.5rem;
+    width: 12rem;
+    font-weight: 700;
+}
+
+.create-account > p {
+    font-size: 1rem;
+}
+
+.create-account > p > a {
+    color: #596D48;
+    font-weight: 700;
+    text-decoration: none;
 }
