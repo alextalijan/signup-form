@@ -93,7 +93,7 @@ body {
 }
 
 .intro-text {
-    padding: 0 3rem;
+    padding-right: 3rem;
     min-width: 45ch;
     max-width: 70ch;
 }
@@ -101,6 +101,11 @@ body {
 .create-account {
     display: flex;
     flex-direction: column;
+}
+
+.intro-text,
+.create-account,
+form {
     padding-left: 3rem;
 }
 
@@ -125,4 +130,38 @@ body {
     color: #596D48;
     font-weight: 700;
     text-decoration: none;
+}
+
+form,
+form > *,
+.form-row > div {
+    display: flex;
+}
+
+form,
+.form-row > div {
+    flex-direction: column;
+}
+
+form {
+    gap: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.form-row label {
+    font-size: 0.7rem;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+}
+
+.form-row {
+    gap: 5vw;
+}
+
+.form-row input {
+    padding: 0.3rem;
+    width: clamp(150px, 20vw, 270px);
+    border: 1px solid lightgray;
+    border-radius: 0.2rem;
 }
